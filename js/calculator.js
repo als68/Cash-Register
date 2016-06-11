@@ -9,8 +9,10 @@
  */
 
 var calculatorModule = (function() {
+
   var memory = 0;
   var total = 0;
+
   function validationFunc(x){
       if (typeof x !== "number") {
       throw new Error("Argument is not a number");
